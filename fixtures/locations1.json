@@ -1,0 +1,24 @@
+[
+{
+    "model": "polls.location",
+    "pk": 3,
+    "fields": {
+        "name": "Delhi",
+        "buildings_count": 3,
+        "seating_capacity": 10000,
+        "parking_capacity": 40000,
+        "cafeteria_capacity": 2500
+    }
+},
+{
+    "model": "polls.location",
+    "pk": 4,
+    "fields": {
+        "name": "Vizag",
+        "buildings_count": 10,
+        "seating_capacity": 25000,
+        "parking_capacity": 6000,
+        "cafeteria_capacity": 3000
+    }
+}
+]

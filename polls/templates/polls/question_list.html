@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Questions List</title>
+</head>
+<body>
+    <h3>Questions List</h3>
+    <a href="{% url 'polls:add_question' %}">Add Question</a>
+    {% for question in question_list %}
+        <li> {{question.question_text}}: Published on {{question.pub_date}}</li>
+    {% endfor %}
+</body>
+</html>

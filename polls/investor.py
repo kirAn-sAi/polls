@@ -11,4 +11,4 @@ class Investor(models.Model):
     site_link = models.CharField(verbose_name="Site Link",null=True)
 
     def __str__(self):
-        return f"{self.name} - {self.created_by}"
+        return f"{self.name}"
